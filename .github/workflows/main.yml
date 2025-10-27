@@ -4,8 +4,5 @@ jobs:
   MyBuild:
     runs-on: windows-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5.0.0
-
-      - name: Step2
-        run: dotnet run
+      - name: Step1
+        run: dotnet run --project
