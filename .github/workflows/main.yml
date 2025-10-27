@@ -1,1 +1,8 @@
-
+name: MyAction
+on: push
+jobs:
+  MyBuild:
+    runs-on: windows-latest
+    steps:
+      - name: Step1
+        run: dotnet run
